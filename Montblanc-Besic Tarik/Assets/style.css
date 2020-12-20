@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@font-face{
+    src: url(Fonts/DrukWide-Medium.ttf);
+    font-family: DrukWide;
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #060507;
+}
+body{
+    height: 1124px;
+}
+.gold{
+    float: right;
+    height: 375px;
+    width: 562px;
+}
+.logo{
+    width: 285px;
+    height: 45px;
+    padding-top: 55px;
+    padding-left: 64px;
+}
+header{
+    float: left;
+    width: 1184px;
+    height: 164px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu{
+    margin-top: 64px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: DrukWide;
+    font-weight: 500;
+    line-height: 183%;
+    height: 40px;
+}
+
+.main-img-motor{
+    width: 1032px;
+    height: 700px;
+}
+
+.zvjezdice{
+    position: absolute;
+    width: 183.28px;
+    height: 177.41px;
+    left: 830px;
+    top: 214px;
+}
+.letters-left{
+    position: absolute;
+    left: 0px;
+    top: 740px;
+    background:none;
+}
+.letters-right{
+    position: absolute;
+    left: 890px;
+    top: 740px;
+    background:none;
+    z-index: 2;
+}
+
+.motor-sjedalo{
+    position: absolute;
+    width: 316px;
+    height: 256px;
+    left: 1073px;
+    top: 868px;
+}
+
+.motor-tocak{
+    position: absolute;
+    width: 316px;
+    height: 700px;
+    left: 1185px;
+    top: 164px;
+    z-index: 1;
+
+}
+
+footer{
+    width: 933px;
+    height: 92px;
+    margin-top: 108px;
+    margin-left: 64px;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.crtica{
+    height: 2px;
+    width: 226px;
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.crtica-tekst{
+    height: 40px;
+    width: 72px;
+    font-family: DrukWide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 183%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    word-spacing: 25px;
+}
+
+.crtica-svijetlo{
+    height: 2px;
+    width: 226px;
+    position: absolute;
+}
+
+.crtica-tamno{
+    height: 2px;
+    width: 140px;
+    position: absolute;
+}
+
+.footer-tekst{
+    width: 406px;
+    height: 92px;
+    margin-left: 77px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 200%;
+
+    color: #FFFFFF;
+}
+
+aside{
+    position: absolute;
+    top: 375px;;
+    right: 0;
+    width: 353px;
+    height: 749px;
+    z-index: 3;
+}
+
+.statistike1{
+    position: absolute;
+    width: 305px;
+    height: 148px;
+    top: 43px;
+    left: 40px;
+    color: white;
+}
+.statistike2{
+    width: 305px;
+    height: 148px;
+    position: absolute;
+    top: 215px;
+    left: 40px;
+    color: white;
+}
+.statistike3{
+    width: 305px;
+    height: 148px;
+    position: absolute;
+    top: 387px;
+    left: 40px;
+    color: white;
+}
+.statistike4{
+    width: 305px;
+    height: 148px;
+    position: absolute;
+    bottom: 42px;
+    left: 40px;
+    color: white;
+}
+.stats-value{
+    width: 257px;
+    height: 37px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 48px;
+
+    font-family: DrukWide;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    }
+    
+.stats-smalltxt{
+    width: 184px;
+    height: 12px;
+    
+    margin-left: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    }
+
+.stats-vertical{
+    position: absolute;
+    top: 36px;
+    right: 230px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    width:148px;
+    height: 30px;
+
+    color: #3F3E44;
+
+    transform: rotate(-90deg);
+    }
